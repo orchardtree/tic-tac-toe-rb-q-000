@@ -88,7 +88,6 @@ def winner(board)
 end
 
 def play(board)
-  turn = turn_count(board)
   until over?(board)
     turn(board)
   end

@@ -89,7 +89,6 @@ end
 
 def play(board)
   turn(board)
-  #until over?(board)
-  #end
+  over?(board)
 end
 
